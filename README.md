@@ -24,5 +24,7 @@ threadscraper/
 │       ├── threads_scraper.py       
 │       └── parser.py       
 ```
+
+# How to user
        
 To use this module to scrape threads, go to `/config/settings.yaml`, specify the list of threads usernames you want to scrape. Open your terminal, navigate to `threadscraper/src` and apply the command `python main.py` to wait for the data to scrape. Sample results are stored in `threadscraper/output` as `threads_results.csv`.
